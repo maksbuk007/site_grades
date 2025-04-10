@@ -256,7 +256,7 @@ export type User = {
     return users.find((user) => user.id === id)
   }
   
-  // Функция для получения всех учеников
+  // Функция для получения всех учеников.
   export function getAllStudents(): User[] {
     return users.filter((user) => user.role === "student")
   }
